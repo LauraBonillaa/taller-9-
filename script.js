@@ -14,7 +14,7 @@ function crearImagen(url) {
     const img = document.createElement("img");
     img.src = url;
     img.addEventListener("click", function() {
-        alert("Joshi");
+        alert("Alerta");
     });
     return img;
 }
